@@ -8,17 +8,17 @@ import { getStorage } from 'firebase/storage'
 // Your web app's Firebase configuration
 
 const app = initializeApp({
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    apiKey: 'AIzaSyBOFASqygf_1fdGQv91AraUmO3ZjAVmuEA',
 
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    authDomain: 'konnekt-development.firebaseapp.com',
 
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    projectId: 'konnekt-development',
 
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    storageBucket: 'konnekt-development.appspot.com',
 
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    messagingSenderId: '890430400299',
 
-    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    appId: '1:890430400299:web:69fe105a69f995f9e9076e',
 })
 
 
