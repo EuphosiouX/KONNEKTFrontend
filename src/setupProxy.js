@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 const backend = {
-    target: 'http://127.0.0.1:8000',
+    target: 'https://konnekt-backend-prod.herokuapp.com',
     changeOrigin: true
 };
 
